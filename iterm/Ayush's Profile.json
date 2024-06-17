@@ -99,6 +99,7 @@
     "Alpha Component" : 1,
     "Green Component" : 0.84313726425170898
   },
+  "Only The Default BG Color Uses Transparency" : true,
   "Columns" : 80,
   "Idle Code" : 0,
   "Ansi 13 Color" : {
@@ -332,9 +333,10 @@
     }
   },
   "Window Type" : 0,
+  "Blur Radius" : 13.023957662379487,
   "Cursor Type" : 0,
   "Background Image Location" : "",
-  "Blur" : false,
+  "Blur" : true,
   "Badge Color" : {
     "Red Component" : 1,
     "Color Space" : "sRGB",
@@ -373,7 +375,7 @@
     "Alpha Component" : 1,
     "Green Component" : 1
   },
-  "Transparency" : 0,
+  "Transparency" : 0.06282603162400266,
   "Guid" : "69F13B11-9BDB-4D10-8EEB-F6BE75195757",
   "Custom Directory" : "No",
   "Ansi 3 Color" : {

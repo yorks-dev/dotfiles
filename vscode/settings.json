@@ -40,7 +40,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
     // ## APC SETTINGS ##
     "animations.Install-Method": "Apc Customize UI++",
-    "update.mode": "default",
+    "update.mode": "manual",
     "apc.imports": [
         "file:///Users/ayushdutta/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.1/dist/updateHandler.js"
     ],
@@ -51,7 +51,7 @@
     // Enables smooth scrolling, a must have 
     "editor.smoothScrolling": true,
     "apc.electron": {
-        "opacity": 1,
+        "opacity": 0.97,
         "titleBarStyle": "customButtonsOnHover",
         "trafficLightPosition": {
             "x": 10,
@@ -224,4 +224,5 @@
     "workbench.colorTheme": "GitHub Dark Default",
     "editor.lineNumbers": "on",
     "window.customTitleBarVisibility": "never",
+    "workbench.activityBar.location": "hidden",
 }
