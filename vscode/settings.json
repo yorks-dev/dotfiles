@@ -1,0 +1,227 @@
+{
+    "workbench.settings.editor": "json",
+    "animations.Enabled": false,
+    
+    // EDITOR FONTS
+    // "editor.fontFamily": "Menlo, IBM Plex Mono, CaskaydiaCove Nerd Font Mono, Iosevka SS04",
+    "editor.fontFamily": "IBM Plex Mono, CaskaydiaCove Nerd Font Mono,  Symbols Nerd Font Mono, MesloLGS NF",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "normal",
+    "editor.fontSize": 15,
+    // "editor.lineHeight": 1.4,
+
+    
+    // Terminal Fonts
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.fontFamily": "IBM Plex Mono, Symbols Nerd Font Mono, CaskaydiaCove Nerd Font Mono, MesloLGS NF",
+    
+    // ICONS
+    "workbench.iconTheme": "vscode-icons",
+
+    // Tab Completions
+    "editor.tabCompletion": "on",
+    
+    // we try to make semantic highlighting look good
+    "editor.semanticHighlighting.enabled": true,
+    
+    // prevent VSCode from modifying the terminal colors
+    "terminal.integrated.minimumContrastRatio": 1,
+    // make the window's titlebar use the workbench colors
+    "files.autoSave": "afterDelay",
+    
+    // Control the cursor animation style.
+    "editor.cursorBlinking": "solid",
+    
+    // Font Aliasing
+    "workbench.fontAliasing": "default",
+    
+
+    ///////////////////////////////////////////////////////////////////////////////////////
+    // ## APC SETTINGS ##
+    "animations.Install-Method": "Apc Customize UI++",
+    "update.mode": "default",
+    "apc.imports": [
+        "file:///Users/ayushdutta/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.1/dist/updateHandler.js"
+    ],
+    //Disable Minimap
+    "editor.minimap.enabled": false,
+    // Disbles breadcrumbs. Please, do not enable them, for the love of god, please
+    "breadcrumbs.enabled": false,
+    // Enables smooth scrolling, a must have 
+    "editor.smoothScrolling": true,
+    "apc.electron": {
+        "opacity": 1,
+        "titleBarStyle": "customButtonsOnHover",
+        "trafficLightPosition": {
+            "x": 10,
+            "y": 5
+        }
+    },
+    "window.titleBarStyle": "native",
+    "apc.header": {
+        "height": 26,
+    },
+    "apc.sidebar.titlebar": {
+        "height": 30
+    },
+    "apc.stylesheet": {
+        // Don't indent the sidebar title.
+        ".custom-sidebar-titlebar .sidebar .composite.title": "padding-left: 0;",
+        // Don't indent the statusbar items.
+        ".monaco-workbench .part.statusbar>.items-container>.statusbar-item.left.first-visible-item": "padding-left: 0;",
+        // Show the host button, and make it as wide as the .activitybar.
+        ".statusbar #status\\.host": "display: block !important; width: calc(var(--activity-bar-action-size) - 1px); background: [#555](https://github.com/lehni/vscode-titlebar-less-macos/issues/555) !important;",
+        ".statusbar #status\\.host .codicon": "margin: 0 auto;",
+    },
+    "workbench.sideBar.location": "right",
+    ///////////////////////////////////////////////////////////////////////////////////////
+
+
+    // PYTHON
+    "python.languageServer": "Pylance",
+    "pylint.args": [
+        "--disable=missing-module-docstring",
+        "--disable=missing-function-docstring",
+        "--disable=missing-class-docstring"
+    ],
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.typeCheckingMode": "standard",
+
+
+
+
+    // MARKDOWN VIEWER
+    "markdown-preview-enhanced.codeBlockTheme": "default.css",
+    "markdown-preview-enhanced.previewTheme": "github-light.css",
+      
+    // FORMATTERS
+    "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true,
+    },
+    
+    // Disable italics
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "comment",
+                    "comment.block",
+                    "comment.block.documentation",
+                    "comment.line",
+                    "constant",
+                    "constant.character",
+                    "constant.character.escape",
+                    "constant.numeric",
+                    "constant.numeric.integer",
+                    "constant.numeric.float",
+                    "constant.numeric.hex",
+                    "constant.numeric.octal",
+                    "constant.other",
+                    "constant.regexp",
+                    "constant.rgb-value",
+                    "emphasis",
+                    "entity",
+                    "entity.name",
+                    "entity.name.class",
+                    "entity.name.function",
+                    "entity.name.method",
+                    "entity.name.section",
+                    "entity.name.selector",
+                    "entity.name.tag",
+                    "entity.name.type",
+                    "entity.other",
+                    "entity.other.attribute-name",
+                    "entity.other.inherited-class",
+                    "invalid",
+                    "invalid.deprecated",
+                    "invalid.illegal",
+                    "keyword",
+                    "keyword.control",
+                    "keyword.operator",
+                    "keyword.operator.new",
+                    "keyword.operator.assignment",
+                    "keyword.operator.arithmetic",
+                    "keyword.operator.logical",
+                    "keyword.other",
+                    "markup",
+                    "markup.bold",
+                    "markup.changed",
+                    "markup.deleted",
+                    "markup.heading",
+                    "markup.inline.raw",
+                    "markup.inserted",
+                    "markup.italic",
+                    "markup.list",
+                    "markup.list.numbered",
+                    "markup.list.unnumbered",
+                    "markup.other",
+                    "markup.quote",
+                    "markup.raw",
+                    "markup.underline",
+                    "markup.underline.link",
+                    "meta",
+                    "meta.block",
+                    "meta.cast",
+                    "meta.class",
+                    "meta.function",
+                    "meta.function-call",
+                    "meta.preprocessor",
+                    "meta.return-type",
+                    "meta.selector",
+                    "meta.tag",
+                    "meta.type.annotation",
+                    "meta.type",
+                    "punctuation.definition.string.begin",
+                    "punctuation.definition.string.end",
+                    "punctuation.separator",
+                    "punctuation.separator.continuation",
+                    "punctuation.terminator",
+                    "storage",
+                    "storage.modifier",
+                    "storage.type",
+                    "string",
+                    "string.interpolated",
+                    "string.other",
+                    "string.quoted",
+                    "string.quoted.double",
+                    "string.quoted.other",
+                    "string.quoted.single",
+                    "string.quoted.triple",
+                    "string.regexp",
+                    "string.unquoted",
+                    "strong",
+                    "support",
+                    "support.class",
+                    "support.constant",
+                    "support.function",
+                    "support.other",
+                    "support.type",
+                    "support.type.property-name",
+                    "support.variable",
+                    "variable",
+                    "variable.language",
+                    "variable.name",
+                    "variable.other",
+                    "variable.other.readwrite",
+                    "variable.parameter"
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
+            }
+        ]
+    },
+
+
+    "workspaceExplorer.workspaceStorageDirectory": "/Users/ayushdutta/vscode_workflows",
+    "markdown-preview-enhanced.enablePreviewZenMode": false,
+    "markdown-preview-enhanced.revealjsTheme": "black.css",
+    "workbench.colorTheme": "GitHub Dark Default",
+    "editor.lineNumbers": "on",
+    "window.customTitleBarVisibility": "never",
+}
